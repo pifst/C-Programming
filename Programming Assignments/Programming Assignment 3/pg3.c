@@ -38,7 +38,7 @@ int getAboveAverage      (int studentScore[], int studentCount, int average);
 void sortASCENDING       (int array1[], int array2[], int n);
 void sortDESCENDING      (int array1[], int array2[], int n);
 
-int a = 0, b = 0, c = 0, d = 0, f = 0; //  Shouldn't be global.
+int a = 0, b = 0, c = 0, d = 0, f = 0; //  Shouldn't be global..
 
 int main(void)
 {
