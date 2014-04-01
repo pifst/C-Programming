@@ -12,17 +12,17 @@ To halt the data entry process, enter 0 for the Student ID.
     Student's ID: 1030
     Enter Grade: 140
     *Error: Input 140, is out of range.*
-    Please use an integer from 1 to 100.
+    Please use an integer from 0 to 100.
     Enter Grade: 72
     Student's ID: 1500
     Enter Grade: 91
     Student's ID: 1100
     Enter Grade: -10
     *Error: Input -10, is out of range.*
-    Please use an integer from 1 to 100.
+    Please use an integer from 0 to 100.
     Enter Grade: 110
     *Error: Input 110, is out of range.*
-    Please use an integer from 1 to 100.
+    Please use an integer from 0 to 100.
     Enter Grade: 77
     Student's ID: 1790
     Enter Grade: 43
