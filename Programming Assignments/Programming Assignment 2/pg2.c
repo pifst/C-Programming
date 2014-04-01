@@ -41,39 +41,39 @@ int main(void) {
     
     
     //  Welcome statements
- 	printf ("Welcome, Please enter upto %i pairs of Student ID's & scores.\n", MAXIMUMSTUDENTS);
- 	printf ("To halt the data entry process, enter 0 for the Student ID.\n\n");
+    printf ("Welcome, Please enter upto %i pairs of Student ID's & scores.\n", MAXIMUMSTUDENTS);
+    printf ("To halt the data entry process, enter 0 for the Student ID.\n\n");
     
     
- 	//	Data collection loop
+    //  Data collection loop
     do {
- 		printf ( "\tStudent's ID: " );
- 		scanf  ( "%i", &studentID[i] );
+        printf ( "\tStudent's ID: " );
+        scanf  ( "%i", &studentID[i] );
         
         //  Exit loop when student ID equals 0
- 		if ( studentID[i] == 0 ) {
- 			printf("End of data collection.\n\n");
- 			break;
- 		}
+        if ( studentID[i] == 0 ) {
+            printf("End of data collection.\n\n");
+            break;
+        }
         
- 		printf ( "\tEnter Grade: " );
- 		scanf  ( "%i", &studentScore[i] );
+        printf ( "\tEnter Grade: " );
+        scanf  ( "%i", &studentScore[i] );
         
- 		++i;
- 	}   //	Quit when iterations exceeds array size
- 	while ( i < MAXIMUMSTUDENTS );
+        ++i;
+    }   //  Quit when iterations exceeds array size
+    while ( i < MAXIMUMSTUDENTS );
     
- 	studentCount = i;                   //  # of students used
+    studentCount = i;                   //  # of students used
 
     if ( studentCount > 0 ) {           //  Skip program if first ID = 0.
         
         for (i = 0; i < studentCount; ++i)
             if (studentScore[i] > highScore) {
                 highScore = studentScore[i];
-                highScoreIndex = i; 	//	Return: index of highest score
+                highScoreIndex = i;     //  Return: index of highest score
             }
         
-        char studentGrade[MAXIMUMSTUDENTS];	//	Array for letter grades
+        char studentGrade[MAXIMUMSTUDENTS]; //  Array for letter grades
         
         for (i = 0; i < studentCount; ++i ) {
             
@@ -120,7 +120,7 @@ int main(void) {
         }
         printf ("\t--------------------\n\n");
         
-        //	Print Out the Results
+        //  Print Out the Results
         printf ("The average test score in the set was: %2.2f\n", average);
         
         printf ("The number of over average scores was: %i\n\n", aboveAverage);

@@ -1,0 +1,9 @@
+arrays
+pass by value
+return by value
+
+pass array when updated
+
+declare datastructure (date or circle problem)
+
+open book/open notes
