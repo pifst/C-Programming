@@ -1,0 +1,25 @@
+openbook open note
+10 multiple choice
+
+short answer questions; mixxed arthitmatic
+
+Code -> write output.
+
+Dynamically allocate an Array
+
+Exam #3; Indirect . notation.
+
+What an array of pointers to strings looks like
+
+Build program; pass by value/pointer/array/data structure
+
+Setup datastructure
+
+Setup Datastructure Array
+
+simple question on enumeration
+
+Exam will not have
+
+linked list
+double dimension

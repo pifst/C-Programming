@@ -1,0 +1,92 @@
+Christopher Fields
+--- Note ---
+I had difficulty inputting stringings with GCC.  Gets / Scanf have compatability problems - GCC want's me to use fgets which requires additional arguments.
+
+I was able to record the company name (when there is a space), using "%[^\n]", however the \n, then escaped the following statement.  Without the use of that escape, the program will sucessfully record the 3 relevenat elements into the structure.  However the company name quits after the first space.  So I left "%[^\n]" inside the program.  I noticed this after I was completing the later problems and ran into time constraints.
+
+------------------------ Answers --
+Q1 Answer:
+
+Welcome, please enter the following information:
+1. Name of Pizza Company
+2. Diameter of it's Pizza
+3. Weight of it's Pizza
+
+
+    Name of Company: Bella Pizza
+    Enter pizza's Diameter: 16
+    Enter pizza's Weight: 3.5
+     Name of Pizza Company: Bella Pizza
+     Diameter of pizza:     16 inches
+     Weight of pizza:       3.50 lbs
+
+---------------
+Q2 Answer:
+Welcome, please enter the following information:
+1. Name of Pizza Company
+2. Diameter of it's Pizza
+3. Weight of it's Pizza
+
+
+    Name of Company: Bella Pizza
+    Enter pizza's Diameter: 16
+    Enter pizza's Weight: 2.5
+
+
+    Name of Company:    Enter pizza's Diameter: 18
+    Enter pizza's Weight: 4
+
+
+    Name of Company:    Enter pizza's Diameter: 19
+    Enter pizza's Weight: 3
+     Name of Pizza Company: Bella Pizza
+     Diameter of pizza:     16 inches
+     Weight of pizza:       2.50 lbs
+     Name of Pizza Company: 
+     Diameter of pizza:     18 inches
+     Weight of pizza:       4.00 lbs
+     Name of Pizza Company: 
+     Diameter of pizza:     19 inches
+     Weight of pizza:       3.00 lbs
+
+---------------
+Q3 Answer:
+Welcome, please enter the following information:
+1. Name of Pizza Company
+2. Diameter of it's Pizza
+3. Weight of it's Pizza
+
+
+    Name of Company: Bella Pizza
+    Enter pizza's Diameter: 16
+    Enter pizza's Weight: 3.5
+
+
+    Name of Company:    Enter pizza's Diameter: 18
+    Enter pizza's Weight: 4
+
+
+    Name of Company:    Enter pizza's Diameter: 19
+    Enter pizza's Weight: 3
+     Name of Pizza Company: Bella Pizza
+     Diameter of pizza:     16 inches
+     Weight of pizza:       3.50 lbs
+     Name of Pizza Company: 
+     Diameter of pizza:     18 inches
+     Weight of pizza:       4.00 lbs
+     Name of Pizza Company: 
+     Diameter of pizza:     19 inches
+     Weight of pizza:       3.00 lbs
+
+---------------
+Q4 (A) Answer:
+warning: this program uses gets(), which is unsafe.
+Please enter your first and last name: Christopher Fields
+You entered: Christopher Fields, was 18 characters
+logout
+
+Q4 (B) Answer:
+Please enter your first and last name: Chris FIelds
+You entered: FIelds Chris, was 11 characters logout
+
+[Process completed]
